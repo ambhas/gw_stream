@@ -1,0 +1,42 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <NoDataValue le_hex_equiv="000000000000F8FF">nan</NoDataValue>
+    <ColorInterp>Palette</ColorInterp>
+    <ColorTable>
+      <Entry c1="0" c2="0" c3="0" c4="0" />
+      <Entry c1="0" c2="0" c3="0" c4="0" />
+      <Entry c1="0" c2="0" c3="0" c4="0" />
+      <Entry c1="232" c2="255" c3="0" c4="255" />
+      <Entry c1="173" c2="255" c3="0" c4="255" />
+      <Entry c1="114" c2="255" c3="0" c4="255" />
+      <Entry c1="56" c2="255" c3="0" c4="255" />
+      <Entry c1="0" c2="255" c3="3" c4="255" />
+      <Entry c1="0" c2="255" c3="61" c4="255" />
+      <Entry c1="0" c2="255" c3="120" c4="255" />
+      <Entry c1="0" c2="255" c3="178" c4="255" />
+      <Entry c1="0" c2="255" c3="237" c4="255" />
+      <Entry c1="0" c2="215" c3="255" c4="255" />
+      <Entry c1="0" c2="156" c3="255" c4="255" />
+      <Entry c1="0" c2="98" c3="255" c4="255" />
+      <Entry c1="0" c2="39" c3="255" c4="255" />
+      <Entry c1="20" c2="0" c3="255" c4="255" />
+      <Entry c1="78" c2="0" c3="255" c4="255" />
+      <Entry c1="137" c2="0" c3="255" c4="255" />
+      <Entry c1="195" c2="0" c3="255" c4="255" />
+      <Entry c1="254" c2="0" c3="255" c4="255" />
+      <Entry c1="255" c2="0" c3="198" c4="255" />
+      <Entry c1="255" c2="0" c3="139" c4="255" />
+      <Entry c1="255" c2="0" c3="81" c4="255" />
+      <Entry c1="255" c2="0" c3="22" c4="255" />
+      <Entry c1="0" c2="0" c3="0" c4="0" />
+    </ColorTable>
+    <Metadata>
+      <MDI key="COLOR_TABLE_RULE_RGB_0">2.590935e+00 6.946284e+00 255 255 0 0 255 0</MDI>
+      <MDI key="COLOR_TABLE_RULE_RGB_1">6.946284e+00 1.130163e+01 0 255 0 0 255 255</MDI>
+      <MDI key="COLOR_TABLE_RULE_RGB_2">1.130163e+01 1.565698e+01 0 255 255 0 0 255</MDI>
+      <MDI key="COLOR_TABLE_RULE_RGB_3">1.565698e+01 2.001233e+01 0 0 255 255 0 255</MDI>
+      <MDI key="COLOR_TABLE_RULE_RGB_4">2.001233e+01 2.436768e+01 255 0 255 255 0 0</MDI>
+      <MDI key="COLOR_TABLE_RULES_COUNT">5</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
