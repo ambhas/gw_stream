@@ -178,6 +178,20 @@ def run_model(input_file_name):
     dataset = None
     print('Read stream')
     
+    watershed_file = par['watershed_file']
+    dataset = gdal.Open(watershed_file, GA_ReadOnly)
+    watershed = dataset.GetRasterBand(1).ReadAsArray()
+    dataset = None
+    
+    watershed[watershed>0] = 1
+    watershed[np.isnan(watershed)] = 0
+    watershed[0,:] = 0
+    watershed[-1,:] = 0
+    watershed[:,0] = 0
+    watershed[:,-1] = 0   
+    
+    print('Read watershed')
+    
     T = np.empty(hini.shape)
     T[:] = float(par['T'])
     Sy = float(par['Sy'])
@@ -192,13 +206,7 @@ def run_model(input_file_name):
     
     print('Finished reading input file %s'%input_file_name)
     
-    watershed = dem/dem     # 1 is inside
-    watershed[np.isnan(watershed)] = 0
-    watershed[0,:] = 0
-    watershed[-1,:] = 0
-    watershed[:,0] = 0
-    watershed[:,-1] = 0   
-    
+        
     if not os.path.exists(par['h_dir_tif']):
         os.makedirs(par['h_dir_tif'])
     
