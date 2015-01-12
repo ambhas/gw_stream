@@ -1,0 +1,43 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <NoDataValue le_hex_equiv="000000000000F8FF">nan</NoDataValue>
+    <ColorInterp>Palette</ColorInterp>
+    <ColorTable>
+      <Entry c1="0" c2="0" c3="0" c4="0" />
+      <Entry c1="0" c2="0" c3="0" c4="0" />
+      <Entry c1="0" c2="0" c3="0" c4="0" />
+      <Entry c1="240" c2="255" c3="0" c4="255" />
+      <Entry c1="191" c2="255" c3="0" c4="255" />
+      <Entry c1="142" c2="255" c3="0" c4="255" />
+      <Entry c1="93" c2="255" c3="0" c4="255" />
+      <Entry c1="44" c2="255" c3="0" c4="255" />
+      <Entry c1="0" c2="255" c3="5" c4="255" />
+      <Entry c1="0" c2="255" c3="54" c4="255" />
+      <Entry c1="0" c2="255" c3="103" c4="255" />
+      <Entry c1="0" c2="255" c3="152" c4="255" />
+      <Entry c1="0" c2="255" c3="201" c4="255" />
+      <Entry c1="0" c2="255" c3="250" c4="255" />
+      <Entry c1="0" c2="211" c3="255" c4="255" />
+      <Entry c1="0" c2="162" c3="255" c4="255" />
+      <Entry c1="0" c2="113" c3="255" c4="255" />
+      <Entry c1="0" c2="64" c3="255" c4="255" />
+      <Entry c1="0" c2="15" c3="255" c4="255" />
+      <Entry c1="34" c2="0" c3="255" c4="255" />
+      <Entry c1="83" c2="0" c3="255" c4="255" />
+      <Entry c1="132" c2="0" c3="255" c4="255" />
+      <Entry c1="180" c2="0" c3="255" c4="255" />
+      <Entry c1="229" c2="0" c3="255" c4="255" />
+      <Entry c1="255" c2="0" c3="232" c4="255" />
+      <Entry c1="255" c2="0" c3="183" c4="255" />
+      <Entry c1="255" c2="0" c3="134" c4="255" />
+    </ColorTable>
+    <Metadata>
+      <MDI key="COLOR_TABLE_RULE_RGB_0">2.673177e+00 7.883043e+00 255 255 0 0 255 0</MDI>
+      <MDI key="COLOR_TABLE_RULE_RGB_1">7.883043e+00 1.309291e+01 0 255 0 0 255 255</MDI>
+      <MDI key="COLOR_TABLE_RULE_RGB_2">1.309291e+01 1.830277e+01 0 255 255 0 0 255</MDI>
+      <MDI key="COLOR_TABLE_RULE_RGB_3">1.830277e+01 2.351264e+01 0 0 255 255 0 255</MDI>
+      <MDI key="COLOR_TABLE_RULE_RGB_4">2.351264e+01 2.872251e+01 255 0 255 255 0 0</MDI>
+      <MDI key="COLOR_TABLE_RULES_COUNT">5</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

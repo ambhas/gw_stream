@@ -1,0 +1,33 @@
+#######################################################################
+# Prepared for version 20141229
+#######################################################################
+
+# define temporal parameters
+start_year	2010	# year model simulation starts
+start_doy	1       # day of year model simulation starts
+end_year	2010	# year model simulation ends  
+end_doy		365	# day of year model simulation ends
+
+# define groundwater parameters
+T			20	# transmissivity
+Sy			0.005	# specific yield
+hmin			700	# groundwater level at which baseflow ceases
+par_discharge		0.995	# parameter for discharge, higher value means lesser discharge (0-1)
+recharge_factor		0.1	# recharge factor (recharge = recharge_factor*rainfall)
+stream_k		1	# hydraulic conductivity for streambed
+stream_m		1	# strambed thickness
+stream_depth		5	# depth of the streambed relative to the DEM
+
+# define input files
+dem_file	../input/DEM.tif	# DEM file
+hini_file	../input/hini.tif	# initial groundwater level file in tiff format
+rain_dir	../input/rainfall/	# rainfall directory 
+rain_multiplier 0.001			# conversion of unit for rainfall (0.001 to convert mm to meter)
+stream_file	../input/stream.tif	# stream fraction file
+
+# location of output folder
+h_dir_tif		../output/gw_tif/		# directory to save the grounwater output files
+h_dir_png		../output/gw_png/		# directory to save the grounwater output files
+ql_dir_tif		../output/ql_tif/		# directory to save the flow between stream and aquifer output files
+ql_dir_png		../output/ql_png/		# directory to save the flow between stream and aquifer output files
+discharge_file		../output/discharge.txt		# file to save the discharge

@@ -1,0 +1,59 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <NoDataValue le_hex_equiv="000000000000F8FF">nan</NoDataValue>
+    <ColorInterp>Palette</ColorInterp>
+    <ColorTable>
+      <Entry c1="0" c2="0" c3="0" c4="0" />
+      <Entry c1="0" c2="0" c3="0" c4="0" />
+      <Entry c1="0" c2="0" c3="0" c4="0" />
+      <Entry c1="0" c2="0" c3="0" c4="0" />
+      <Entry c1="0" c2="0" c3="0" c4="0" />
+      <Entry c1="0" c2="0" c3="0" c4="0" />
+      <Entry c1="0" c2="0" c3="0" c4="0" />
+      <Entry c1="246" c2="255" c3="0" c4="255" />
+      <Entry c1="210" c2="255" c3="0" c4="255" />
+      <Entry c1="174" c2="255" c3="0" c4="255" />
+      <Entry c1="138" c2="255" c3="0" c4="255" />
+      <Entry c1="102" c2="255" c3="0" c4="255" />
+      <Entry c1="66" c2="255" c3="0" c4="255" />
+      <Entry c1="30" c2="255" c3="0" c4="255" />
+      <Entry c1="0" c2="255" c3="6" c4="255" />
+      <Entry c1="0" c2="255" c3="41" c4="255" />
+      <Entry c1="0" c2="255" c3="77" c4="255" />
+      <Entry c1="0" c2="255" c3="113" c4="255" />
+      <Entry c1="0" c2="255" c3="149" c4="255" />
+      <Entry c1="0" c2="255" c3="185" c4="255" />
+      <Entry c1="0" c2="255" c3="221" c4="255" />
+      <Entry c1="0" c2="253" c3="255" c4="255" />
+      <Entry c1="0" c2="217" c3="255" c4="255" />
+      <Entry c1="0" c2="181" c3="255" c4="255" />
+      <Entry c1="0" c2="145" c3="255" c4="255" />
+      <Entry c1="0" c2="109" c3="255" c4="255" />
+      <Entry c1="0" c2="74" c3="255" c4="255" />
+      <Entry c1="0" c2="38" c3="255" c4="255" />
+      <Entry c1="0" c2="2" c3="255" c4="255" />
+      <Entry c1="34" c2="0" c3="255" c4="255" />
+      <Entry c1="70" c2="0" c3="255" c4="255" />
+      <Entry c1="106" c2="0" c3="255" c4="255" />
+      <Entry c1="142" c2="0" c3="255" c4="255" />
+      <Entry c1="178" c2="0" c3="255" c4="255" />
+      <Entry c1="214" c2="0" c3="255" c4="255" />
+      <Entry c1="250" c2="0" c3="255" c4="255" />
+      <Entry c1="255" c2="0" c3="225" c4="255" />
+      <Entry c1="255" c2="0" c3="189" c4="255" />
+      <Entry c1="255" c2="0" c3="153" c4="255" />
+      <Entry c1="255" c2="0" c3="117" c4="255" />
+      <Entry c1="255" c2="0" c3="81" c4="255" />
+      <Entry c1="255" c2="0" c3="45" c4="255" />
+      <Entry c1="255" c2="0" c3="9" c4="255" />
+    </ColorTable>
+    <Metadata>
+      <MDI key="COLOR_TABLE_RULE_RGB_0">6.728104e+00 1.383029e+01 255 255 0 0 255 0</MDI>
+      <MDI key="COLOR_TABLE_RULE_RGB_1">1.383029e+01 2.093247e+01 0 255 0 0 255 255</MDI>
+      <MDI key="COLOR_TABLE_RULE_RGB_2">2.093247e+01 2.803465e+01 0 255 255 0 0 255</MDI>
+      <MDI key="COLOR_TABLE_RULE_RGB_3">2.803465e+01 3.513683e+01 0 0 255 255 0 255</MDI>
+      <MDI key="COLOR_TABLE_RULE_RGB_4">3.513683e+01 4.223902e+01 255 0 255 255 0 0</MDI>
+      <MDI key="COLOR_TABLE_RULES_COUNT">5</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
